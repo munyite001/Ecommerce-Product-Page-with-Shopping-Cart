@@ -298,11 +298,11 @@ main {
 .thumbnail-img {
   width: 100%;
   border-radius: 5px;
-  object-fit: cover;
 }
 
 .thumbnail-active {
-  border: 2px solid var(--orange);
+  outline: none;
+  border: 3px solid var(--orange);
 }
 
 .thumbnail-img:active {
@@ -417,6 +417,10 @@ main {
   margin: 0 1rem;
 }
 
+.modal-overlay {
+  display: none;
+}
+
 /* Desktop Designs */
 @media screen and (min-width: 768px) {
   header {
@@ -503,6 +507,38 @@ main {
     width: 50%;
     height: 3rem;
     margin: 0.5rem; 
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-overlay .arrow-icons-wrapper {
+    display: flex;
+    max-width: 420px;
+  }
+
+  .close-modal {
+    display: flex;
+  }
+
+  .closeModalBtn {
+    margin: 0 0.3rem 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--orange);
+  }
+
+  .closeModalBtn:hover {
+    cursor: pointer;
   }
 
 }
