@@ -100,7 +100,7 @@ closeMenu.addEventListener("click", () => {
 
 //  Basket
 openCart.addEventListener("click", () => {
-  cart.classList.toggle("show-basket");
+  cart.classList.toggle("show-basket");  
 });
 
 //  Cart Functionality
@@ -147,6 +147,7 @@ if (cartArr.length == 0) {
 //  Lightbox
 closeModal.addEventListener('click', () => {
   lightbox.style.display = 'none';
+  document.body.style.overflowY = "scroll";
 });
 
 if (screen.width > 768)
@@ -154,5 +155,6 @@ if (screen.width > 768)
   let mainImage = productImageMain.querySelector('.main-product-image');
   mainImage.addEventListener('click', () => {
     lightbox.style.display = 'flex';
+    document.body.style.overflowY = 'hidden';
   }); 
 }
