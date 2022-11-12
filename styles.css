@@ -29,6 +29,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
 }
 
 nav {
@@ -238,6 +243,7 @@ main {
 
 .container {
   width: 100%;
+  margin: 5rem 0 0;
 }
 
 .image-section {
@@ -469,6 +475,7 @@ main {
     display: flex; 
     align-items: center;
     justify-content: center;
+    margin: 2rem 0 0;
   }
 
   .arrow-icons-wrapper {
