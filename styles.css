@@ -162,7 +162,7 @@ nav {
   background-color: var(--white);
   border-radius: 10px;
   display: none;
-  border: 1px solid var(--dark-grayish-blue);
+  box-shadow: 1px 1px 10px hsl(219, 9%, 45%), -1px -1px 10px hsl(219, 9%, 45%);
 }
 
 .show-basket {

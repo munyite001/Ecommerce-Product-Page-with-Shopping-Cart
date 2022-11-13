@@ -134,6 +134,8 @@ addToCart.addEventListener("click", () => {
       cartArr.pop();
       cartContent.innerHTML = `<p>Your Cart is empty.</p>`;
       cartQuantity.style.display = "none";
+      count = 0;
+      counter.innerHTML = 0;
     });
   }
 });
