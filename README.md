@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Guthub Repo](https://munyite001.github.io/Ecommerce-Product-Page-with-Shopping-Cart/)
+- Live Site URL: [https://ecommerce-product-page-main-fr.netlify.app/](https://ecommerce-product-page-main-fr.netlify.app/)
 
 ## My process
 As always, I start any project with analysyis of the design, identifying thr different aspects that both the mobile and desktop designs have.
@@ -92,5 +92,5 @@ I will also try to add more functionality, for example, right now, the cart can 
 ## Author
 
 - Github - [munyite001](https://www.github.com/munyite001)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/munyite001)
+- Frontend Mentor - [@munyite001](https://www.frontendmentor.io/profile/munyite001)
 - Twitter - [@emunyite](https://www.twitter.com/emunyite)
